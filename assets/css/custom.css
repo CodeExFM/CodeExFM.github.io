@@ -247,4 +247,15 @@ hr.hr-01 {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
+.custom-popover {
+  --bs-popover-max-width: 300px;
+  --bs-popover-bg: #171f38;
+  --bs-popover-border-color: #eb4a4a;
+  --bs-popover-header-bg: #171f38;
+  --bs-popover-header-color: white;
+  /* --bs-popover-body-bg: #171f38;*/
+  --bs-popover-body-color: white;
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: 0.5rem;
+}
 /* Utils */
