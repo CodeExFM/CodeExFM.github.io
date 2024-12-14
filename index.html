@@ -14,11 +14,11 @@
 </head>
 
 <body>
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="basic-info-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="basic-info-modalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+          <h1 class="modal-title fs-5" id="basic-info-modalLabel"></h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="container">
     <nav class="navbar navbar-expand-lg py-1">
       <div class="container-fluid ">
@@ -44,15 +44,20 @@
   </div>
 
   <div class="container">
-    <section class="mt-5">
+    <div class="col-12 mb-5 mt-5">
+      <div class="breadcrumb">
+          <h2>Upcoming Events</h2>
+          <ul class="d-flex ps-0">
+              <li><a href="index.html">Home</a></li>
+
+          </ul>
+      </div>
+  </div>
+    <section>
       <div class="row">
-        <div class="col-12 mb-2 d-flex">
-          <div class="heading-title">
-            <h2>Upcoming Events</h2>
-          </div>
-        </div>
         <div class="col-12 col-md-6 col-lg-6 col-xl-4 mix web">
-          <div class="item-card" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="item-card">
+            <a href="event-details.html">
             <div class="item-image">
               <img style="height: 250px;"
                 src="https://www.foodrepublic.com/img/gallery/never-break-this-timing-rule-when-hosting-a-dinner-party/intro-1685484681.jpg"
@@ -73,6 +78,7 @@
                 </li>
               </ul>
             </div>
+          </a>
           </div>
         </div>
       </div>
