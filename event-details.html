@@ -24,13 +24,13 @@
           <button type="button" class="btn-close home-link p-0 text-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form id="basic-info-form" class="comment-form" method="POST">
-            <div class="row">
-              <div class="col-12">
-                <div id="alert-message" class="alert contact__msg d-none" role="alert">
-                </div>
+          <div class="row">
+            <div class="col-12">
+              <div id="alert-message" class="alert contact__msg d-none" role="alert">
               </div>
             </div>
+          </div>
+          <form id="basic-info-form" class="comment-form" method="POST">
             <div class="row">
               <div class="col-12 form-group mb-4">
                 <label for="full-name" class="form-label text-white">Full Name</label>
@@ -38,19 +38,55 @@
               </div>
               <div class="col-12 form-group ">
                 <label for="email-address" class="form-label text-white">Email Address</label>
-                <input name="email-address" id="email-address" type="email-address" class="form-control text-white" placeholder="Enter Your Email">
+                <input name="email-address" id="email-address" type="email" class="form-control text-white" placeholder="Enter Your Email">
               </div>
               <div class="col-12 d-flex align-items-center justify-content-end">
-              <div class="mt-4"><input name="submit" type="submit" class="btn btn-generic" value="Next"></div>
+              <div class="mt-4"><button name="submit" type="submit" class="btn btn-generic">Next</button></div>
             </div>
             </div>
-            <!-- end form element -->
+
           </form>
         </div>
        
       </div>
     </div>
   </div>
+  <!-- <div class="modal fade" id="card-info-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="card-info-modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header text-white">
+        <h1 class="modal-title fs-5" id="basic-info-modalLabel">Enter Your Details</h1>
+        <button type="button" class="btn-close home-link p-0 text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12">
+            <div id="alert-message" class="alert contact__msg d-none" role="alert">
+            </div>
+          </div>
+        </div>
+        <form id="basic-info-form" class="comment-form" method="POST">
+          <div class="row">
+            <div class="col-12 form-group mb-4">
+              <label for="full-name" class="form-label text-white">Full Name</label>
+              <input name="full-name" id="full-name" type="text" class="form-control text-white" placeholder="Enter Your Full Name">
+            </div>
+            <div class="col-12 form-group ">
+              <label for="email-address" class="form-label text-white">Email Address</label>
+              <input name="email-address" id="email-address" type="email" class="form-control text-white" placeholder="Enter Your Email">
+            </div>
+            <div class="col-12 d-flex align-items-center justify-content-end">
+            <div class="mt-4"><button name="submit" type="submit" class="btn btn-generic">Next</button></div>
+          </div>
+          </div>
+
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div> -->
   <div class="container">
     <nav class="navbar navbar-expand-lg py-1">
       <div class="container-fluid ">
